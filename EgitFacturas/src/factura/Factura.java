@@ -75,7 +75,7 @@ public class Factura {
 		System.out.println("Es proyecto java sigue el control de versiones" +
 				"creado con GIT");
 		
-		// Crear una factura
+	
 		LineaFactura[] lineas = new LineaFactura[]{
 				new LineaFactura("P100", "Leche",	0.85f, 	6, 	0 ),
 				new LineaFactura("P200", "Pan",		0.60f, 	1, 	0 ),
