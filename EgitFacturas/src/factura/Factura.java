@@ -13,6 +13,7 @@ import java.util.Arrays;
  * @see LineaFactura
  * 
  * */
+
 public class Factura {
 	
 	public String id_cliente;		// Identificador (codigo) del cliente
@@ -70,6 +71,9 @@ public class Factura {
 	 * @see LineaFactura
 	 **/
 	public static void main(String[] args){
+		
+		System.out.println("Es proyecto java sigue el control de versiones" +
+				"creado con GIT");
 		
 		// Crear una factura
 		LineaFactura[] lineas = new LineaFactura[]{
